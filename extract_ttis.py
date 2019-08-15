@@ -101,7 +101,7 @@ else:
                                       user=args.user,
                                       password=args.password,
                                       host=args.host,
-                                      port=args.post)
+                                      port=args.port)
     else:
         connection = psycopg2.connect(database=args.database,
                                       user=args.user,
